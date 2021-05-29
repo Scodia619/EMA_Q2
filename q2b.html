@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Announcements</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="q2acss.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <button type=button>Event Management</button>
+        <button type=button>Member Management</button>
+        <button type=button>News Creation</button>
+        <button type=button>Announcements</button>
+    </div>
+
+    <div class="main" id="newsAdd">
+        <h1>Announcements</h1>
+        <form action="newsadd.php">
+            <label>Content</label><br>
+            <textarea name="content" id="news" placeholder="Insert Announcements Here...."></textarea><br><br>
+            <input type="button" value="Select Attachment"/><br><br>
+            <input type="button" value="Send"/>
+            <input type="hidden" name="sessionID" value="1234abcd-5679-9090-efef">
+        </form>
+    </div>
+
+</body>
+
+</html>
